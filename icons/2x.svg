@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 32 32">
+  <title>2× playback speed</title>
+  <rect width="32" height="32" rx="6" fill="#1f3053"/>
+  <path d="M 7 11.5 C 7 8 15 7.5 15 11.9 C 15 16.3 7 17.6 7 23 H 15" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 20 15.5 L 25 21.5 M 25 15.5 L 20 21.5" fill="none" stroke="#c2dcff" stroke-width="2.2" stroke-linecap="round"/>
+</svg>
