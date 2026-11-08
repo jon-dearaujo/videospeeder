@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Video Speeder",
+  "version": "1.0",
+  "description": "Cycle through five video playback speeds from the toolbar.",
+  "minimum_chrome_version": "121",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "background": {
+    "service_worker": "background.js",
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["playback.js"],
+      "all_frames": true,
+      "run_at": "document_start"
+    }
+  ],
+  "action": {
+    "default_title": "Video Speeder (1x)",
+    "default_icon": {
+      "16": "icons/1x-16.png",
+      "32": "icons/1x-32.png"
+    }
+  },
+  "icons": {
+    "48": "icons/1x-48.png",
+    "128": "icons/1x-128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "videospeeder@jhas.dev.br",
+      "strict_min_version": "121.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}
