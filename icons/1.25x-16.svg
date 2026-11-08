@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <title>1.25× playback speed</title>
+  <rect width="16" height="16" rx="3" fill="#1f3053"/>
+  <g fill="#fff">
+    <path d="M3 3h1v6H3V5H2V4h1zM2 9h3v1H2z"/>
+    <rect x="6" y="9" width="1" height="1"/>
+    <path d="M8 3h3v4H9v2h2v1H8V6h2V4H8z"/>
+    <path d="M12 3h3v1h-2v2h2v4h-3V9h2V7h-2z"/>
+  </g>
+  <path d="M7 11h1v1H7zM9 11h1v1H9zM8 12h1v1H8zM7 13h1v1H7zM9 13h1v1H9z" fill="#c2dcff"/>
+</svg>
